@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/owlscreen/owlscreen.svg?branch=master)](https://travis-ci.org/owlscreen/owlscreen)
 [![Stories in Ready](https://badge.waffle.io/owlscreen/owlscreen.png?label=ready&title=Ready)](https://waffle.io/owlscreen/owlscreen)
 # owlscreen
 Repo project
