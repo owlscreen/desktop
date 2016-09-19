@@ -1,27 +1,37 @@
 {
   "name": "owlscreen",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Simple share screen",
   "main": "main.js",
   "scripts": {
-    "start": "electron main/main.js"
+    "build": "webpack",
+    "start": "webpack-dev-server --content-base build"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/owlscreen/owlscreen.git"
   },
   "keywords": [
-    "Electron",
-    "Share",
-    "Screen"
+    "electron",
+    "share",
+    "screen"
   ],
-  "author": "OwlScreen",
+  "author": "owlscreen",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/owlscreen/owlscreen/issues"
   },
   "homepage": "https://owlscreen.github.io",
   "devDependencies": {
-    "electron-prebuilt": "^1.2.0"
+    "electron-prebuilt": "^1.2.0",
+    "babel-core": "^6.4.5",
+    "babel-loader": "^6.2.1",
+    "babel-preset-es2015": "^6.3.13",
+    "css-loader": "^0.23.1",
+    "http-server": "^0.8.5",
+    "style-loader": "^0.13.0",
+    "sass-loader": "^1.5.1",
+    "webpack": "^1.12.12",
+    "webpack-dev-server": "^1.14.1"
   }
 }
