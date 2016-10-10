@@ -1,13 +1,12 @@
 # Owlscreen Desktop
 
-[![Build Status](https://travis-ci.org/owlscreen/desktop.svg?branch=master)](https://travis-ci.org/owlscreen/desktop)
+[![Build Status](https://travis-ci.org/owlscreen/owlscreen.svg?branch=master)](https://travis-ci.org/owlscreen/owlscreen)
 [![Licence MIT](https://img.shields.io/badge/licence-MIT-blue.svg)](https://github.com/owlscreen/desktop/blob/master/LICENSE.md)
 [![DevDependency Status](https://david-dm.org/owlscreen/desktop/dev-status.svg)](https://david-dm.org/owlscreen/desktop#info=devDependencies)
-[![Build Status](https://travis-ci.org/owlscreen/desktop.svg?branch=master)](https://travis-ci.org/owlscreen/desktop)
 
-> :rocket: Aplicação desktop
+> :rocket: Desktop application
 
-## Como utilizar
+## How to use
 
 ```javascript
 npm install
