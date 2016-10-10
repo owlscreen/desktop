@@ -9,7 +9,7 @@ module.exports = {
     filename: 'min.bundle.js'
   },
   plugins: [
-    new webpack.optimize.UglifyJsPlugin({minimize: true})  
+    new webpack.optimize.UglifyJsPlugin({minimize: true})
   ],
   resolve: {
     extensions: ['', '.js', '.scss']
